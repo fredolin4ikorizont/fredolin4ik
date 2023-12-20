@@ -1,0 +1,12 @@
+.main__txt{
+  animation: inf_change 3s infinite;
+}
+
+@keyframes inf_change{
+  from{
+    color:blue;
+  }
+  to{
+    color:yellow
+  }
+}
