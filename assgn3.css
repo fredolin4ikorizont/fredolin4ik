@@ -1,0 +1,20 @@
+p:hover{
+  color:green;
+  font-weight:bold;
+}
+
+p::before{
+  content:'I am red';
+  color:red;
+  font-weight:bold;
+}
+p::after{
+  content:'I am yellow';
+  color:yellow;
+  font-weight:bold;
+}
+
+p::selection{
+  background-color:purple;
+  color:white;
+}
